@@ -1,0 +1,10 @@
+task_list = list()
+task_list.append('Make Dinner')
+task_list.append('Wash Dishes')
+task_list.append('Do Laundry')
+print(task_list)
+
+task_list.pop()
+print(task_list)
+num_on_list = len(task_list)
+print(num_on_list)
